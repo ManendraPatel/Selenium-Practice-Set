@@ -10,9 +10,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class LinkTest {
-
+	@Test(priority=0)
 	public static void main(String[] args) throws MalformedURLException, IOException, InterruptedException 
 	{
 		WebDriver ms=new ChromeDriver();
