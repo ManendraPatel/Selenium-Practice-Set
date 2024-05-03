@@ -10,7 +10,13 @@
  </classes>>
   </test> <!-- Test -->
   
+  <!-- TestNG Test -->>
+   <test thread-count="6" name="TestNG est">
+ <classes>
+ <class name ="TestNGPractice.Anotations"/>
   
+ </classes>>
+  </test> <!-- Test -->
   
   
 </suite> <!-- Suite -->
